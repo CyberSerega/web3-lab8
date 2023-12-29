@@ -438,15 +438,6 @@ function mail(){
 <p>Создайте модуль для работы с API сторонних сервисов.</p>
 
 ```javascript
-function breakChocolate(n,m) {
-  if(n*m-1<0) return 0;
-  return n*m-1;
-}
-```
-
-<p>Playing with digits</p>
-
-```javascript
 const express = require('express');
 const app = express();
 const getFact = require('./api.js');
